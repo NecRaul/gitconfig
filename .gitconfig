@@ -108,8 +108,8 @@
 	i = init
 	l = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
 	m = merge
-	ps = push
 	pl = pull
+	ps = push
 	r = revert
 	rb = rebase
 	re = reset
