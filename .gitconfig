@@ -113,6 +113,7 @@
 	r = revert
 	rb = rebase
 	re = reset
+	rmt = remote
 	s = status
 	# Ensure that force-pushing won't lose someone else's work (only mine).
 	push-with-lease = push --force-with-lease
