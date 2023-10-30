@@ -1,13 +1,13 @@
 [user]
-	email = 
-	name = 
+	email =
+	name =
 [init]
 	defaultBranch = main
 [core]
 	# Don't paginate output by default
 	pager = cat
-	# vim
-	editor = vim
+	# nvim
+	editor = nvim
 	# Don't consider trailing space change as a cause for merge conflicts
 	whitespace = -trailing-space
 [color]
@@ -16,7 +16,7 @@
 [color "branch"]
 	current = green bold
 	local = red bold
-	remote = cyan bold 
+	remote = cyan bold
 [fetch]
 	# Auto-fetch submodule changes (sadly, won't auto-update)
 	recurseSubmodules = on-demand
