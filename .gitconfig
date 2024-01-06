@@ -1,12 +1,15 @@
 [user]
 	email =
 	name =
+	signingkey = /PATH/TO/.SSH/KEY.PUB
 [init]
 	defaultBranch = main
 [core]
 	pager = cat
 	editor = nvim
 	whitespace = -trailing-space
+[gpg]
+	format = ssh
 [color]
 	ui = auto
 [color "branch"]
