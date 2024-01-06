@@ -16,6 +16,8 @@
 	current = green bold
 	local = red bold
 	remote = cyan bold
+[commit]
+	gpgSign = true
 [fetch]
 	recurseSubmodules = on-demand
 [pull]
