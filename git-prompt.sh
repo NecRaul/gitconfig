@@ -18,8 +18,7 @@ __git_branch() {
     branch=${branch:-$(__parse "s/^## (.*)[^ ]*.*$/\1/p" "$branch_info")}        # branch
 
     remote=$(__parse "s/^## .*[\.]{3}([^ ]*).*$/\1/p" "$branch_info")
-
-    printf "⎇  %s%s%s" "${branch}$([ -n "$remote" ] && echo -n " → $remote")"
+    printf " %s%s%s" "${branch}$([ -n "$remote" ] && echo -n " ⎇  $remote")"
 }
 
 __git_state() {
