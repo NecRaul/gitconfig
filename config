@@ -5,7 +5,7 @@
 [init]
     defaultBranch = main
 [core]
-    pager = cat
+    pager = less
     editor = nvim
     whitespace = -trailing-space
 [gpg]
