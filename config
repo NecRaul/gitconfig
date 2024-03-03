@@ -1,6 +1,6 @@
 [user]
-    email =
-    name =
+    email = necraul@kuroneko.dev
+    name = NecRaul
     signingkey = ~/.ssh/id_ed25519.pub
 [init]
     defaultBranch = main
