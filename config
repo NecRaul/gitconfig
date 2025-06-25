@@ -18,6 +18,7 @@
     remote = cyan bold
 [commit]
     gpgSign = true
+    verbose = true
 [fetch]
     recurseSubmodules = on-demand
 [pull]
