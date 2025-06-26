@@ -8,6 +8,7 @@
     pager = less
     editor = nvim
     whitespace = -trailing-space
+    excludesfile = ~/.config/git/ignore
 [gpg]
     format = ssh
 [color]
