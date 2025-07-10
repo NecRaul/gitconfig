@@ -11,6 +11,8 @@
     excludesfile = ~/.config/git/ignore
 [gpg]
     format = ssh
+[gpg "ssh"]
+    allowedSignersFile = ~/.config/git/allowed_signers
 [color]
     ui = auto
 [color "branch"]
